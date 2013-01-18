@@ -23,6 +23,7 @@
 		AA5E38B616A8FA2B005E5ED7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5E389116A8FA2B005E5ED7 /* Foundation.framework */; };
 		AA5E38BE16A8FA2B005E5ED7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA5E38BC16A8FA2B005E5ED7 /* InfoPlist.strings */; };
 		AA5E38C116A8FA2B005E5ED7 /* EMFileManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5E38C016A8FA2B005E5ED7 /* EMFileManagerTests.m */; };
+		AA5E38CE16A8FFBF005E5ED7 /* EMFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5E38CD16A8FFBF005E5ED7 /* EMFileManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		AA5E38BD16A8FA2B005E5ED7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AA5E38BF16A8FA2B005E5ED7 /* EMFileManagerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMFileManagerTests.h; sourceTree = "<group>"; };
 		AA5E38C016A8FA2B005E5ED7 /* EMFileManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMFileManagerTests.m; sourceTree = "<group>"; };
+		AA5E38CC16A8FFBF005E5ED7 /* EMFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EMFileManager.h; path = EMFileManager/EMFileManager.h; sourceTree = "<group>"; };
+		AA5E38CD16A8FFBF005E5ED7 /* EMFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EMFileManager.m; path = EMFileManager/EMFileManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,7 @@
 				AA5E38A716A8FA2B005E5ED7 /* MainStoryboard.storyboard */,
 				AA5E38AA16A8FA2B005E5ED7 /* EMViewController.h */,
 				AA5E38AB16A8FA2B005E5ED7 /* EMViewController.m */,
+				AA5E38CB16A8FF3A005E5ED7 /* EMFileManager */,
 				AA5E389616A8FA2B005E5ED7 /* Supporting Files */,
 			);
 			path = EMFileManager;
@@ -158,6 +162,15 @@
 				AA5E38BC16A8FA2B005E5ED7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA5E38CB16A8FF3A005E5ED7 /* EMFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				AA5E38CC16A8FFBF005E5ED7 /* EMFileManager.h */,
+				AA5E38CD16A8FFBF005E5ED7 /* EMFileManager.m */,
+			);
+			name = EMFileManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +287,7 @@
 				AA5E389C16A8FA2B005E5ED7 /* main.m in Sources */,
 				AA5E38A016A8FA2B005E5ED7 /* EMAppDelegate.m in Sources */,
 				AA5E38AC16A8FA2B005E5ED7 /* EMViewController.m in Sources */,
+				AA5E38CE16A8FFBF005E5ED7 /* EMFileManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

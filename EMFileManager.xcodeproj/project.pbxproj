@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA5E389016A8FA2B005E5ED7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5E388F16A8FA2B005E5ED7 /* UIKit.framework */; };
+		AA5E389216A8FA2B005E5ED7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5E389116A8FA2B005E5ED7 /* Foundation.framework */; };
+		AA5E389416A8FA2B005E5ED7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5E389316A8FA2B005E5ED7 /* CoreGraphics.framework */; };
+		AA5E389A16A8FA2B005E5ED7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA5E389816A8FA2B005E5ED7 /* InfoPlist.strings */; };
+		AA5E389C16A8FA2B005E5ED7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5E389B16A8FA2B005E5ED7 /* main.m */; };
+		AA5E38A016A8FA2B005E5ED7 /* EMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5E389F16A8FA2B005E5ED7 /* EMAppDelegate.m */; };
+		AA5E38A216A8FA2B005E5ED7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5E38A116A8FA2B005E5ED7 /* Default.png */; };
+		AA5E38A416A8FA2B005E5ED7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5E38A316A8FA2B005E5ED7 /* Default@2x.png */; };
+		AA5E38A616A8FA2B005E5ED7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5E38A516A8FA2B005E5ED7 /* Default-568h@2x.png */; };
+		AA5E38A916A8FA2B005E5ED7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA5E38A716A8FA2B005E5ED7 /* MainStoryboard.storyboard */; };
+		AA5E38AC16A8FA2B005E5ED7 /* EMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5E38AB16A8FA2B005E5ED7 /* EMViewController.m */; };
+		AA5E38B416A8FA2B005E5ED7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5E38B316A8FA2B005E5ED7 /* SenTestingKit.framework */; };
+		AA5E38B516A8FA2B005E5ED7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5E388F16A8FA2B005E5ED7 /* UIKit.framework */; };
+		AA5E38B616A8FA2B005E5ED7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5E389116A8FA2B005E5ED7 /* Foundation.framework */; };
+		AA5E38BE16A8FA2B005E5ED7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA5E38BC16A8FA2B005E5ED7 /* InfoPlist.strings */; };
+		AA5E38C116A8FA2B005E5ED7 /* EMFileManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5E38C016A8FA2B005E5ED7 /* EMFileManagerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA5E38B716A8FA2B005E5ED7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA5E388216A8FA2B005E5ED7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA5E388A16A8FA2B005E5ED7;
+			remoteInfo = EMFileManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA5E388B16A8FA2B005E5ED7 /* EMFileManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EMFileManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA5E388F16A8FA2B005E5ED7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AA5E389116A8FA2B005E5ED7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA5E389316A8FA2B005E5ED7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AA5E389716A8FA2B005E5ED7 /* EMFileManager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EMFileManager-Info.plist"; sourceTree = "<group>"; };
+		AA5E389916A8FA2B005E5ED7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA5E389B16A8FA2B005E5ED7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA5E389D16A8FA2B005E5ED7 /* EMFileManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EMFileManager-Prefix.pch"; sourceTree = "<group>"; };
+		AA5E389E16A8FA2B005E5ED7 /* EMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMAppDelegate.h; sourceTree = "<group>"; };
+		AA5E389F16A8FA2B005E5ED7 /* EMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMAppDelegate.m; sourceTree = "<group>"; };
+		AA5E38A116A8FA2B005E5ED7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AA5E38A316A8FA2B005E5ED7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AA5E38A516A8FA2B005E5ED7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AA5E38A816A8FA2B005E5ED7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		AA5E38AA16A8FA2B005E5ED7 /* EMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMViewController.h; sourceTree = "<group>"; };
+		AA5E38AB16A8FA2B005E5ED7 /* EMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMViewController.m; sourceTree = "<group>"; };
+		AA5E38B216A8FA2B005E5ED7 /* EMFileManagerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EMFileManagerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA5E38B316A8FA2B005E5ED7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		AA5E38BB16A8FA2B005E5ED7 /* EMFileManagerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EMFileManagerTests-Info.plist"; sourceTree = "<group>"; };
+		AA5E38BD16A8FA2B005E5ED7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA5E38BF16A8FA2B005E5ED7 /* EMFileManagerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMFileManagerTests.h; sourceTree = "<group>"; };
+		AA5E38C016A8FA2B005E5ED7 /* EMFileManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMFileManagerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA5E388816A8FA2B005E5ED7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5E389016A8FA2B005E5ED7 /* UIKit.framework in Frameworks */,
+				AA5E389216A8FA2B005E5ED7 /* Foundation.framework in Frameworks */,
+				AA5E389416A8FA2B005E5ED7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5E38AE16A8FA2B005E5ED7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5E38B416A8FA2B005E5ED7 /* SenTestingKit.framework in Frameworks */,
+				AA5E38B516A8FA2B005E5ED7 /* UIKit.framework in Frameworks */,
+				AA5E38B616A8FA2B005E5ED7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA5E388016A8FA2B005E5ED7 = {
+			isa = PBXGroup;
+			children = (
+				AA5E389516A8FA2B005E5ED7 /* EMFileManager */,
+				AA5E38B916A8FA2B005E5ED7 /* EMFileManagerTests */,
+				AA5E388E16A8FA2B005E5ED7 /* Frameworks */,
+				AA5E388C16A8FA2B005E5ED7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA5E388C16A8FA2B005E5ED7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA5E388B16A8FA2B005E5ED7 /* EMFileManager.app */,
+				AA5E38B216A8FA2B005E5ED7 /* EMFileManagerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA5E388E16A8FA2B005E5ED7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA5E388F16A8FA2B005E5ED7 /* UIKit.framework */,
+				AA5E389116A8FA2B005E5ED7 /* Foundation.framework */,
+				AA5E389316A8FA2B005E5ED7 /* CoreGraphics.framework */,
+				AA5E38B316A8FA2B005E5ED7 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA5E389516A8FA2B005E5ED7 /* EMFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				AA5E389E16A8FA2B005E5ED7 /* EMAppDelegate.h */,
+				AA5E389F16A8FA2B005E5ED7 /* EMAppDelegate.m */,
+				AA5E38A716A8FA2B005E5ED7 /* MainStoryboard.storyboard */,
+				AA5E38AA16A8FA2B005E5ED7 /* EMViewController.h */,
+				AA5E38AB16A8FA2B005E5ED7 /* EMViewController.m */,
+				AA5E389616A8FA2B005E5ED7 /* Supporting Files */,
+			);
+			path = EMFileManager;
+			sourceTree = "<group>";
+		};
+		AA5E389616A8FA2B005E5ED7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA5E389716A8FA2B005E5ED7 /* EMFileManager-Info.plist */,
+				AA5E389816A8FA2B005E5ED7 /* InfoPlist.strings */,
+				AA5E389B16A8FA2B005E5ED7 /* main.m */,
+				AA5E389D16A8FA2B005E5ED7 /* EMFileManager-Prefix.pch */,
+				AA5E38A116A8FA2B005E5ED7 /* Default.png */,
+				AA5E38A316A8FA2B005E5ED7 /* Default@2x.png */,
+				AA5E38A516A8FA2B005E5ED7 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA5E38B916A8FA2B005E5ED7 /* EMFileManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA5E38BF16A8FA2B005E5ED7 /* EMFileManagerTests.h */,
+				AA5E38C016A8FA2B005E5ED7 /* EMFileManagerTests.m */,
+				AA5E38BA16A8FA2B005E5ED7 /* Supporting Files */,
+			);
+			path = EMFileManagerTests;
+			sourceTree = "<group>";
+		};
+		AA5E38BA16A8FA2B005E5ED7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA5E38BB16A8FA2B005E5ED7 /* EMFileManagerTests-Info.plist */,
+				AA5E38BC16A8FA2B005E5ED7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA5E388A16A8FA2B005E5ED7 /* EMFileManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA5E38C416A8FA2B005E5ED7 /* Build configuration list for PBXNativeTarget "EMFileManager" */;
+			buildPhases = (
+				AA5E388716A8FA2B005E5ED7 /* Sources */,
+				AA5E388816A8FA2B005E5ED7 /* Frameworks */,
+				AA5E388916A8FA2B005E5ED7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EMFileManager;
+			productName = EMFileManager;
+			productReference = AA5E388B16A8FA2B005E5ED7 /* EMFileManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA5E38B116A8FA2B005E5ED7 /* EMFileManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA5E38C716A8FA2B005E5ED7 /* Build configuration list for PBXNativeTarget "EMFileManagerTests" */;
+			buildPhases = (
+				AA5E38AD16A8FA2B005E5ED7 /* Sources */,
+				AA5E38AE16A8FA2B005E5ED7 /* Frameworks */,
+				AA5E38AF16A8FA2B005E5ED7 /* Resources */,
+				AA5E38B016A8FA2B005E5ED7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA5E38B816A8FA2B005E5ED7 /* PBXTargetDependency */,
+			);
+			name = EMFileManagerTests;
+			productName = EMFileManagerTests;
+			productReference = AA5E38B216A8FA2B005E5ED7 /* EMFileManagerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA5E388216A8FA2B005E5ED7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EM;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Ethan Mick";
+			};
+			buildConfigurationList = AA5E388516A8FA2B005E5ED7 /* Build configuration list for PBXProject "EMFileManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA5E388016A8FA2B005E5ED7;
+			productRefGroup = AA5E388C16A8FA2B005E5ED7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA5E388A16A8FA2B005E5ED7 /* EMFileManager */,
+				AA5E38B116A8FA2B005E5ED7 /* EMFileManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA5E388916A8FA2B005E5ED7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5E389A16A8FA2B005E5ED7 /* InfoPlist.strings in Resources */,
+				AA5E38A216A8FA2B005E5ED7 /* Default.png in Resources */,
+				AA5E38A416A8FA2B005E5ED7 /* Default@2x.png in Resources */,
+				AA5E38A616A8FA2B005E5ED7 /* Default-568h@2x.png in Resources */,
+				AA5E38A916A8FA2B005E5ED7 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5E38AF16A8FA2B005E5ED7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5E38BE16A8FA2B005E5ED7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AA5E38B016A8FA2B005E5ED7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA5E388716A8FA2B005E5ED7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5E389C16A8FA2B005E5ED7 /* main.m in Sources */,
+				AA5E38A016A8FA2B005E5ED7 /* EMAppDelegate.m in Sources */,
+				AA5E38AC16A8FA2B005E5ED7 /* EMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5E38AD16A8FA2B005E5ED7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5E38C116A8FA2B005E5ED7 /* EMFileManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA5E38B816A8FA2B005E5ED7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA5E388A16A8FA2B005E5ED7 /* EMFileManager */;
+			targetProxy = AA5E38B716A8FA2B005E5ED7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA5E389816A8FA2B005E5ED7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA5E389916A8FA2B005E5ED7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AA5E38A716A8FA2B005E5ED7 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA5E38A816A8FA2B005E5ED7 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		AA5E38BC16A8FA2B005E5ED7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA5E38BD16A8FA2B005E5ED7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA5E38C216A8FA2B005E5ED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA5E38C316A8FA2B005E5ED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA5E38C516A8FA2B005E5ED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EMFileManager/EMFileManager-Prefix.pch";
+				INFOPLIST_FILE = "EMFileManager/EMFileManager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AA5E38C616A8FA2B005E5ED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EMFileManager/EMFileManager-Prefix.pch";
+				INFOPLIST_FILE = "EMFileManager/EMFileManager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AA5E38C816A8FA2B005E5ED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EMFileManager.app/EMFileManager";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EMFileManager/EMFileManager-Prefix.pch";
+				INFOPLIST_FILE = "EMFileManagerTests/EMFileManagerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		AA5E38C916A8FA2B005E5ED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EMFileManager.app/EMFileManager";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EMFileManager/EMFileManager-Prefix.pch";
+				INFOPLIST_FILE = "EMFileManagerTests/EMFileManagerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA5E388516A8FA2B005E5ED7 /* Build configuration list for PBXProject "EMFileManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5E38C216A8FA2B005E5ED7 /* Debug */,
+				AA5E38C316A8FA2B005E5ED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA5E38C416A8FA2B005E5ED7 /* Build configuration list for PBXNativeTarget "EMFileManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5E38C516A8FA2B005E5ED7 /* Debug */,
+				AA5E38C616A8FA2B005E5ED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA5E38C716A8FA2B005E5ED7 /* Build configuration list for PBXNativeTarget "EMFileManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5E38C816A8FA2B005E5ED7 /* Debug */,
+				AA5E38C916A8FA2B005E5ED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA5E388216A8FA2B005E5ED7 /* Project object */;
+}
